@@ -1,0 +1,17 @@
+##cadastrar Uma Folha
+POST https://localhost:5001/api/folha/cadastrar
+Content-Type: application/json
+
+{
+    "valorhora" : "50",
+    "quantidadehoras" : "1000",
+    "mesano" : "0922",
+    "funcionarioId" : 1
+
+}
+
+### Listar Folhas
+GET https://localhost:5001/api/folha/listar
+
+### Buscar
+GET https://localhost:5001/api/folha/buscarfolha/1
